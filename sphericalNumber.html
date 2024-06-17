@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>4D Hypersphere Visualization</title>
+    <style>
+      canvas {
+        border: 1px solid black;
+      }
+      #processedVideo {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <video id="processedVideo" width="320" height="240" autoplay></video>
+    <canvas id="canvas" width="800" height="800"></canvas>
+    <div id="ambient-light-display"></div>
+    <script src="sphericalNumber.js"></script>
+  </body>
+</html>
